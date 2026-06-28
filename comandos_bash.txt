@@ -15,3 +15,37 @@ clear ou ctrl l → limpa o terminal.
 mkdir → cria um diretório novo.
 
 cat → mostra o que tem dentro do arquivo. cat nome do arquivo.
+
+rm → remove arquivo ou diretório.
+
+rm -rf → remove de forma recursiva e forçada todos os diretórios. 
+
+git init . → inicializa o repositório git vazio podendo versionar os arquivos.
+
+git status → mostra como está o diretório.
+
+git add → adiciona o que vai para o commit.
+
+git commit -m “msg” → salva a sua tarefa.
+
+nano → editor de texto no terminal.
+
+git log → mostra todos os commits.
+
+. → aponta para o diretório atual
+
+.. → volta ao diretório anterior
+
+*→ pega todos os arquivos.
+
+### Fluxo de Trabalho
+
+1. Criar o diretório do projeto
+2. iniciar o git dentro do diretório criado
+3. edita ou cria arquivos
+4. git status
+5. git add <nome arquivo>
+6. git status
+7. git commit -m “mensagem”
+8. git status
+9. volta para o passo 3.
